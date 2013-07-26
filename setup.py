@@ -275,7 +275,7 @@ if __name__ == '__main__':
         description = DOCLINES[0],
         long_description = "\n".join(DOCLINES[2:]),
         url = "http://www.clawpack.org",
-        download_url = "git+git://github.com/clawpack/clawpack.git#egg=clawpack-dev", 
+        download_url = "https://github.com/clawpack/clawpack/releases/download/5.0.0rc-alpha/clawpack-rc-alpha.tar.gz",
         license = 'BSD',
         classifiers=[_f for _f in CLASSIFIERS.split('\n') if _f],
         platforms = ["Linux", "Solaris", "Mac OS-X", "Unix"],
